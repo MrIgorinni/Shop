@@ -81,3 +81,13 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
+body {
+  background: linear-gradient(60deg, #eecfba8c, #c5dde877),
+    url(https://jwojewelers.com/wp-content/uploads/2016/11/JWO2.jpg);
+  background-size: cover;
+  height: 100%;
+  color: white;
+  overflow-y: auto;
+  background-attachment: fixed;
+}
