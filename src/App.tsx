@@ -7,13 +7,11 @@ const App = () => {
   const { error } = useErrorPopupContext()
 
   return (
-    <ErrorPopupProvider>
-      <Container>
-        {error && <ErrorPopup>{error}</ErrorPopup>}
-        <Header />
-        <Products />
-      </Container>
-    </ErrorPopupProvider>
+    <Container>
+      {error && <ErrorPopup>{error}</ErrorPopup>}
+      <Header />
+      <Products />
+    </Container>
   )
 }
 
