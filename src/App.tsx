@@ -17,4 +17,10 @@ const App = () => {
   )
 }
 
-export default App
+const AppWithProvider = () => (
+  <ErrorPopupProvider>
+    <App />
+  </ErrorPopupProvider>
+)
+
+export default AppWithProvider
